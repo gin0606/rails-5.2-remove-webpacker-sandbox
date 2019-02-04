@@ -41,6 +41,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # rails と webpack 同時に動かすのに使う
+  gem 'foreman'
 end
 
 group :development do
